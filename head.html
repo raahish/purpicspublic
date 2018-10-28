@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--MOBILE OPTIMIZATION-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+    <script src="jquery.js"></script>
+    <script>
+    $(function(){
+      $("#integr").load("index.html");
+    });
+    </script>
+    </head>
+
+    <body>
+    <div class="navbar-fixed">
+      <nav class="nav-wrapper z-depth-2" style="background-image: linear-gradient(to right, rgb(255, 0, 102), rgb(255, 99, 71)); border-bottom-right-radius: 25px; border-bottom-left-radius: 25px;">
+        <div class="container">
+          <div styl align="center" style="margin-top: 5px; "><img src="logo1.png" width="60" height="50" /></div>
+          <ul class="right">
+            <li></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <iframe height="300px" width="100%" src="https://www.instagram.com/oauth/authorize/?client_id=0580b6c066b742c7b27affdb46f59068&redirect_uri=http://0.0.0.0:2222/login&response_type=code" name="iframe_a"></iframe>
+
+    <p><a href="https://www.google.com" target="iframe_a">W3Schools.com</a></p>
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js">document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });</script>
+    </body>
+  </html>
