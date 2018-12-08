@@ -173,6 +173,21 @@ iframe {
   background: #fff;  
 }
 
+.container-post100 {
+  width: 100%;  
+  /*min-height: 100vh;*/
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: left;
+  padding: 15px;
+  background: #fff;  
+}
+
 .wrap-login100 {
   width: 390px;
   background: #fff;
@@ -200,6 +215,19 @@ iframe {
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.login100-form-bLogo {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.login100-form-bLogo img {
+  width: 100%;
 }
 
 .login100-form-avatar img {
@@ -348,6 +376,57 @@ iframe {
   -ms-box-shadow: 0 10px 30px 0px #FF0066;
 }
 
+.container-login100-form-custombtn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.login100-form-custombtn {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 87%;
+  height: 50px;
+  background-image: linear-gradient(to right, rgb(255, 0, 102), rgb(255, 99, 71));
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px 0px rgb(255, 99, 71);
+  -moz-box-shadow: 0 10px 30px 0px rgb(255, 99, 71);
+  -webkit-box-shadow: 0 10px 30px 0px rgb(255, 99, 71);
+  -o-box-shadow: 0 10px 30px 0px rgb(255, 99, 71);
+  -ms-box-shadow: 0 10px 30px 0px rgb(255, 99, 71);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-custombtn:hover  {
+  background-image: linear-gradient(to right, rgb(255, 99, 71), rgb(255, 0, 102));
+  box-shadow: 0 10px 30px 0px #FF0066;
+  -moz-box-shadow: 0 10px 30px 0px #FF0066;
+  -webkit-box-shadow: 0 10px 30px 0px #FF0066;
+  -o-box-shadow: 0 10px 30px 0px #FF0066;
+  -ms-box-shadow: 0 10px 30px 0px #FF0066;
+}
 
 
 /*------------------------------------------------------------------
@@ -443,3 +522,6 @@ iframe {
   transform: translateY(-50%);
   left: 0;
 }
+
+
+/*//////////////////////////////////////////////////////////////////
